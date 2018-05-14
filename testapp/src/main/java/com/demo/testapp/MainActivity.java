@@ -18,7 +18,7 @@ import android.util.Log;
 import android.view.View;
 
 
-import com.demo.recognizeapp.IGetBytesAIDL;
+import com.qingguo.recognizeapp.IGetBytesAIDL;
 
 import java.util.ArrayList;
 
