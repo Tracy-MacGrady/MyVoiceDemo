@@ -1,5 +1,5 @@
 // IActionAIDL.aidl
-package com.demo.testapp;
+package com.mysystem.recorder;
 
 // Declare any non-default types here with import statements
 

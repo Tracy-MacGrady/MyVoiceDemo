@@ -12,7 +12,7 @@ import android.os.RemoteException;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.demo.testapp.IActionAIDL;
+import com.mysystem.recorder.IActionAIDL;
 import com.qglib.recognize.callback.RecognizeResult;
 import com.qglib.recognize.interfaces.RecognizeVoiceInterface;
 import com.qglib.recognize.xunfei.XunFeiRecognizeUtil;

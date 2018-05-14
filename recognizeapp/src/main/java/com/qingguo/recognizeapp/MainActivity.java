@@ -15,22 +15,16 @@ import android.widget.EditText;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    public static String PACKAGE_NAME = "";
-    private SharedPreferences sharedPreferences;
+public class MainActivity extends AppCompatActivity {
+    public static String PACKAGE_NAME = "com.mysystem.recorder";
 
     private EditText editText;
-    private Button okButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         editText = findViewById(R.id.packagename);
-        okButton = findViewById(R.id.ok_view);
-        okButton.setOnClickListener(this);
-        sharedPreferences = getSharedPreferences("APP_SP", MODE_PRIVATE);
-        PACKAGE_NAME = sharedPreferences.getString("name", "");
         editText.setText(PACKAGE_NAME);
         initPermission();
     }
@@ -66,14 +60,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Log.e(this.getClass().getSimpleName(), "grantResults==" + grantResults);
     }
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.ok_view:
-                if (TextUtils.isEmpty(editText.getText())) return;
-                PACKAGE_NAME = editText.getText().toString();
-                sharedPreferences.edit().putString("name", PACKAGE_NAME).commit();
-                break;
-        }
-    }
 }

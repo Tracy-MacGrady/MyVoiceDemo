@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.demo.testapp"
+        applicationId "com.mysystem.recorder"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1

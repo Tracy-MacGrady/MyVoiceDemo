@@ -1,16 +1,14 @@
-package com.demo.testapp.services;
+package com.mysystem.recorder.services;
 
 import android.app.Service;
 import android.content.Intent;
-import android.content.res.AssetFileDescriptor;
-import android.content.res.AssetManager;
 import android.media.MediaPlayer;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.demo.testapp.IActionAIDL;
+import com.mysystem.recorder.IActionAIDL;
 
 import java.io.File;
 import java.io.FileInputStream;

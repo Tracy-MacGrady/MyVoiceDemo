@@ -1,4 +1,4 @@
-package com.demo.testapp;
+package com.mysystem.recorder;
 
 import android.Manifest;
 import android.content.ComponentName;
