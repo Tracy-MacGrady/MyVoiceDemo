@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.demo.recognizeapp"
+        applicationId "com.qingguo.recognizeapp"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1

@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.start_record_view:
                 if (intent == null) {
                     intent = new Intent();
-                    ComponentName componentName = new ComponentName("com.demo.recognizeapp", "com.demo.recognizeapp.services.MyGetVoiceByteService");
+                    ComponentName componentName = new ComponentName("com.qingguo.recognizeapp", "com.qingguo.recognizeapp.services.MyGetVoiceByteService");
                     intent.setComponent(componentName);
                     bindService(intent, serviceConnection, BIND_AUTO_CREATE);
                 }

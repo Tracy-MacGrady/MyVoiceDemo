@@ -1,4 +1,4 @@
-package com.demo.recognizeapp.services;
+package com.qingguo.recognizeapp.services;
 
 import android.app.Service;
 import android.content.ComponentName;
@@ -12,12 +12,12 @@ import android.os.RemoteException;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.demo.recognizeapp.IGetBytesAIDL;
-import com.demo.recognizeapp.MainActivity;
 import com.demo.testapp.IActionAIDL;
 import com.qglib.recognize.callback.RecognizeResult;
 import com.qglib.recognize.interfaces.RecognizeVoiceInterface;
 import com.qglib.recognize.xunfei.XunFeiRecognizeUtil;
+import com.qingguo.recognizeapp.IGetBytesAIDL;
+import com.qingguo.recognizeapp.MainActivity;
 
 
 public class MyGetVoiceByteService extends Service implements RecognizeVoiceInterface {

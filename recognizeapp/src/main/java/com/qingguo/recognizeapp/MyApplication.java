@@ -1,4 +1,4 @@
-package com.demo.recognizeapp;
+package com.qingguo.recognizeapp;
 
 import android.app.Application;
 

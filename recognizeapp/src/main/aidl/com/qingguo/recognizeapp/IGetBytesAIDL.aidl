@@ -1,5 +1,5 @@
-// IMyAidlInterface.aidl
-package com.demo.recognizeapp;
+// IGetBytesAIDL.aidl
+package com.qingguo.recognizeapp;
 
 // Declare any non-default types here with import statements
 
